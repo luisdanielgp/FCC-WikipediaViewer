@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  margin: 3% 0;
+  font-family: 'Raley', sans-serif;
+}
+
+.searchInputForm {
+  margin-bottom: 5%;
+}
+
+#searchInput {
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  padding: 0.6%;
+  border: 0.7px solid #C0C0C0;
+  color: #333333;
+}
+
+#searchInput:focus {
+  outline: none;
+}
+
+.buttons {
+  border-radius: 4px;
+  background-color: transparent;
+  transition: all .2s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  padding: 0.6%;
+  border: 0.7px solid #C0C0C0;
+  color: #333333;
+}
+
+.buttons:hover {
+  transform: scale(1.05);
+  color: #0086b3;
+}
+
+.buttons:active {
+  outline: none;
+  background-color: #ccf2ff;
+}
+
+.buttons:focus {
+  outline: none;
+  background-color: #ccf2ff;
+}
+
+#randomSearchButton {
+  margin-top: 2%;
+}
+
+.searchList {
+ font-family: 'Roboto', sans-serif;
+ margin-top: 3%;
+}
+
+.searchList ul {
+  list-style-type: none;
+}
+
+.searchList ul li {
+  border: 0.7px solid #e6e6e6;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  padding: 0.6%;
+  font-size: 1.2em;
+}
+
+.searchList ul li a {
+  color: #0086b3;
+}
+
+.searchList ul li a:hover {
+  text-decoration: none;
+}
+
+#arrow {
+  font-size: 2em;
+  transition: all .2s ease-in-out;
+  padding: 1% 2%;
+}
+
+#arrow:hover {
+  transform: scale(1.2);
+}
+
+#extract {
+  color: #595959;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+footer {
+  margin-top: 30%;
+}
+
+.credit {
+  font-size: 0.8em;
+}
+
+
+.social li {
+ display:inline-block;
+  margin: 0 1.6%;
+  font-size: 1.2em;
+}
+
+.social li a i{
+  color: #0086b3;
+  transition: all .2s ease-in-out;
+}
+
+.social li a i:hover {
+  transform: scale(1.3);
+}
