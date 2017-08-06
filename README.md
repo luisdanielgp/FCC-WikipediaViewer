@@ -16,9 +16,11 @@ Feedback would be very appreciated!!
 
 ## Code
 
-I used mediawiki's API:  https://www.mediawiki.org/wiki/API:Main_page
+I used Wikipedia's API:  https://www.mediawiki.org/wiki/API:Main_page
 
-I used bootstrap for the styling.
+Heres an API sandbox for experimenting with Wikipedia's API: https://en.wikipedia.org/wiki/Special:ApiSandbox#action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=jsonfm
+
+I used bootstrap 4 for the styling.
 
 I used Plain Javascript and some jQuery for getting the JSON and displaying search results.
 
